@@ -1,32 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a84697d.css",
-    "main.js": "/static/js/main.7e66d46d.js",
+    "main.css": "/static/css/main.1011bbf4.css",
+    "main.js": "/static/js/main.b78341b5.js",
     "static/js/453.ebbdbb8b.chunk.js": "/static/js/453.ebbdbb8b.chunk.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/ichat.png": "/static/media/ichat.87d6a3368f0b96eeaa4c.png",
+    "static/media/jpegcompression.png": "/static/media/jpegcompression.5fceaf44952b571a028a.png",
+    "static/media/bleedingdetector.png": "/static/media/bleedingdetector.be0543cc107b7c96ad69.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/videostrgapp.png": "/static/media/videostrgapp.98fd6375274c10fde4fe.png",
     "static/media/myimage.jpg": "/static/media/myimage.27b764b597804235c8d7.jpg",
+    "static/media/cracksdetector.png": "/static/media/cracksdetector.d6fc4eca92d6bfa151b3.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/fitnessfusion.png": "/static/media/fitnessfusion.7d1fd94d8f34b2f4a58a.png",
     "static/media/contact-img.svg": "/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
+    "static/media/vts.png": "/static/media/vts.8cf46a7aea8d50436458.png",
+    "static/media/testportal.png": "/static/media/testportal.dd4395956f6a8ecb2d63.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/logo.svg": "/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "static/media/logo.svg": "/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
     "static/media/github.svg": "/static/media/github.c71577d71667b3a9814615dae35c193b.svg",
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.8a84697d.css.map": "/static/css/main.8a84697d.css.map",
-    "main.7e66d46d.js.map": "/static/js/main.7e66d46d.js.map",
+    "main.1011bbf4.css.map": "/static/css/main.1011bbf4.css.map",
+    "main.b78341b5.js.map": "/static/js/main.b78341b5.js.map",
     "453.ebbdbb8b.chunk.js.map": "/static/js/453.ebbdbb8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a84697d.css",
-    "static/js/main.7e66d46d.js"
+    "static/css/main.1011bbf4.css",
+    "static/js/main.b78341b5.js"
   ]
 }
