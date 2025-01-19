@@ -11,8 +11,11 @@ import Experience from "./components/Experience";
 import ContactDetails from './components/ContactDetails';
 import data from './assets/json/data.json'
 
+const service_id='service_4z6jb4v';
+const template_id='template_dvc7qpg';
+const public_key='x3xoMG7KyhwXxLaMv';
+
 function App() {
-  
   return (
     <div className="App">
       <NavBar contacts={data.contacts}/>
@@ -20,7 +23,7 @@ function App() {
       <Skills skills={data.skills}/>
       <Experience experiences={data.experience}/>
       <Projects projectsdetails={data.projects} />
-      <Contact />
+      <Contact service_id={service_id} template_id={template_id} public_key={public_key} />
       <ContactDetails details={data.contacts}/>
       <Footer />
     </div>
