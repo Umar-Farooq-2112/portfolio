@@ -1,0 +1,155 @@
+{
+    "contacts": {
+        "linkedin": "https://www.linkedin.com/in/umarrfarooq",
+        "whatsapp": "https://wa.me/923355022002",
+        "number": "+92 335 5022002",
+        "instagram": "https://www.instagram.com/umarfarooq2112",
+        "facebook": "https://www.facebook.com/umerfarooqgta",
+        "github": "https://github.com/Umar-Farooq-2112"
+    },
+    "experience": [
+        {
+            "title": "Computer Vision Intern",
+            "company": "RoadGauge Ltd",
+            "duration": "July 2024 - Current",
+            "description": "Worked on road-edge detection and crack-detection solutions using deep learning and OpenCV.",
+            "link": "https://roadgauge.ai"
+        }
+    ],
+    "skills": {
+        "languages": [
+            {
+                "percentage": 80,
+                "title": "C/C++"
+            },
+            {
+                "percentage": 80,
+                "title": "Python"
+            },
+            {
+                "percentage": 70,
+                "title": "JavaScript"
+            },
+            {
+                "percentage": 80,
+                "title": "SQL"
+            }
+        ],
+        "technologies": [
+            {
+                "percentage": 80,
+                "title": "Computer Vision"
+            },
+            {
+                "percentage": 70,
+                "title": "Generative AI"
+            },
+            {
+                "percentage": 75,
+                "title": "Flutter Development"
+            },
+            {
+                "percentage": 70,
+                "title": "Firebase"
+            },
+            {
+                "percentage": 65,
+                "title": "Node/Express JS"
+            }
+        ],
+        "tools": [
+            {
+                "percentage": 85,
+                "title": "Visual Studio Code"
+            },
+            {
+                "percentage": 80,
+                "title": "Jupyter Notebook"
+            },
+            {
+                "percentage": 70,
+                "title": "Android Studio"
+            },
+            {
+                "percentage": 75,
+                "title": "Google Colaboratory"
+            }
+        ],
+        "others": [
+            {
+                "percentage": 75,
+                "title": "Git/GitHub"
+            },
+            {
+                "percentage": 70,
+                "title": "Database Management and Development"
+            },
+            {
+                "percentage": 60,
+                "title": "MongoDB"
+            }
+        ]
+    },
+    "projects": {
+        "tab1": [
+            {
+                "title": "Road Edge Deterioration Detector",
+                "description": "Developed an advanced image processing algorithm to detect and analyze road edge deterioration using RunSAT and Hough transform methods during my internhsip with RoadGauge Ltd.",
+                "imgUrl": "/assets/img/projects/roadedge.png",
+                "link": "https://github.com/Umar-Farooq-2112/Road-Edge-Deterioration.git"
+            },
+            {
+                "title": "Unique Cracks Detector from GoPro Video",
+                "description": "Implemented a system to ensure unique crack detection, eliminating duplicates and accurately merging overlapping cracks in the final JSON output as bounding boxes",
+                "imgUrl": "/assets/img/projects/cracksdetector.png",
+                "link": "https://github.com/Umar-Farooq-2112/Cracks-Detection-using-Go-Pro-Videos-and-Inference-masks-.git"
+            },
+            {
+                "title": "JPEG Image Compression",
+                "description": "Applied lossy compression algorithms to reduce image file sizes while preserving visual quality, demonstrating proficiency in image processing and software development. Implemented using Python, utilizing OpenCV and Streamlit to develop a user-friendly application.",
+                "imgUrl": "/assets/img/projects/jpegcompression.png",
+                "link": "https://github.com/Umar-Farooq-2112/JPEG-Compression.git"
+            },
+            {
+                "title": "Preseatation Video Slides Extractor",
+                "description": "Implemented a python script taking input a video of any meeting with presentations on it, extracting and storing each slide in the presenatation locally",
+                "imgUrl": "/assets/img/projects/vts.png",
+                "link": "https://github.com/Umar-Farooq-2112/Video-to-Slide-Converter.git"
+            },
+            {
+                "title": "Road Bleeding Detector",
+                "description": "Implemented python scripts for detecting road bleeding from road images and inference masks utilizing OpenCV and Image Processing Techniques",
+                "imgUrl": "/assets/img/projects/bleedingdetector.png",
+                "link": "https://github.com/Umar-Farooq-2112/Road-Bleeding-Detector.git"
+            }
+        ],
+        "tab2": [
+            {
+                "title": "FitnessFusion",
+                "description": "Design & Development of a fitness application for assigning workout and diet plans to end users with 3 differenct modes of application (Admin, Trainer and Trainee) in Flutter and Node JS with MySQL.",
+                "imgUrl": "/assets/img/projects/fitnessfusion.png",
+                "link": "https://github.com/Umar-Farooq-2112/Fitness-Fusion.git"
+            },
+            {
+                "title": "Cloud Video Storage App",
+                "description": "A Cloud Video storage app based on microservices architecture utilizing Google Cloud Buckets for video storage and Node/Express JS for Backend Management.",
+                "imgUrl": "/assets/img/projects/videostrgapp.png",
+                "link": "https://github.com/Umar-Farooq-2112/Cloud-Video-App.git"
+            },
+            {
+                "title": "IChat - Chatting Application in Java",
+                "description": "A Simple Peer to Peer Chatting Appilation made in java utilizing Java Socket and Swing UI Library",
+                "imgUrl": "/assets/img/projects/ichat.png",
+                "link": "https://github.com/Umar-Farooq-2112/Chat-Application.git"
+            }
+        ],
+        "tab3": [
+            {
+                "title": "Test Portal",
+                "description": "A Simple Console based Test Portal application for Quiz based Questions with different difficulty levels and multiple subjects.",
+                "imgUrl": "/assets/img/projects/testportal.png",
+                "link": "https://github.com/Umar-Farooq-2112/Test-Portal.git"
+            }
+        ]
+    }
+}
