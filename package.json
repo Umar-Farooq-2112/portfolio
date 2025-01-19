@@ -1,5 +1,6 @@
 {
   "name": "umar-farooq-portfolio",
+  "homepage":"https://Umar-Farooq-2112.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "dotenv": "^16.4.7",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.1",
+    "gh-pages": "^6.3.0",
     "nodemailer": "^6.7.5",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
@@ -31,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
