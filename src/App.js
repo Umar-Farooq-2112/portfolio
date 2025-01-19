@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -22,7 +21,7 @@ function App() {
       <Banner />
       <Skills skills={data.skills}/>
       <Experience experiences={data.experience}/>
-      <Projects projectsdetails={data.projects} />
+      <Projects />
       <Contact service_id={service_id} template_id={template_id} public_key={public_key} />
       <ContactDetails details={data.contacts}/>
       <Footer />
