@@ -23,37 +23,41 @@
                 "title": "C/C++"
             },
             {
-                "percentage": 80,
+                "percentage": 75,
                 "title": "Python"
             },
             {
-                "percentage": 70,
+                "percentage": 60,
                 "title": "JavaScript"
             },
             {
-                "percentage": 80,
+                "percentage": 70,
                 "title": "SQL"
             }
         ],
         "technologies": [
             {
-                "percentage": 80,
+                "percentage": 65,
                 "title": "Computer Vision"
             },
             {
-                "percentage": 70,
-                "title": "Generative AI"
+                "percentage": 75,
+                "title": "Image Processing"
             },
             {
-                "percentage": 75,
+                "percentage": 70,
+                "title": "Machine Learning"
+            },
+            {
+                "percentage": 60,
+                "title": "Deep Learning"
+            },
+            {
+                "percentage": 60,
                 "title": "Flutter Development"
             },
             {
-                "percentage": 70,
-                "title": "Firebase"
-            },
-            {
-                "percentage": 65,
+                "percentage": 60,
                 "title": "Node/Express JS"
             }
         ],
@@ -63,7 +67,7 @@
                 "title": "Visual Studio Code"
             },
             {
-                "percentage": 80,
+                "percentage": 70,
                 "title": "Jupyter Notebook"
             },
             {
