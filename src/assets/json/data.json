@@ -37,6 +37,14 @@
         ],
         "technologies": [
             {
+                "percentage": 85,
+                "title": "Machine Learning"
+            },
+            {
+                "percentage": 75,
+                "title": "Deep Learning"
+            },
+            {
                 "percentage": 70,
                 "title": "Computer Vision"
             },
@@ -46,39 +54,65 @@
             },
             {
                 "percentage": 80,
-                "title": "Machine Learning"
+                "title": "Agentic AI"
             },
             {
-                "percentage": 75,
-                "title": "Deep Learning"
-            },
-            {
-                "percentage": 70,
+                "percentage": 80,
                 "title": "AI Agents"
             },
             {
-                "percentage": 70,
-                "title": "RAG"
+                "percentage": 75,
+                "title": "Large Language Models"
             },
             {
-                "percentage": 70,
-                "title": "LangChain/LangGraph"
+                "percentage": 75,
+                "title": "RAG"
             },
             {
                 "percentage": 75,
                 "title": "Prompt Engineering"
             },
             {
+                "percentage": 65,
+                "title": "Backend Development"
+            }
+        ],
+        "frameworks": [
+            {
                 "percentage": 70,
+                "title": "LangChain"
+            },
+            {
+                "percentage": 70,
+                "title": "LangGraph"
+            },
+            {
+                "percentage": 65,
+                "title": "Hugging Face"
+            },
+            {
+                "percentage": 65,
                 "title": "Ollama"
             },
             {
-                "percentage": 70,
-                "title": "API(OpenAI, Gemini)"
+                "percentage": 80,
+                "title": "TensorFlow"
             },
             {
                 "percentage": 60,
-                "title": "Node/Express JS"
+                "title": "PyTorch"
+            },
+            {
+                "percentage": 75,
+                "title": "OpenCV"
+            },
+            {
+                "percentage": 75,
+                "title": "APIs (OpenAI, Gemini, Claude)"
+            },
+            {
+                "percentage": 60,
+                "title": "NodeJS/ ExpressJS"
             }
         ],
         "tools": [
@@ -118,7 +152,7 @@
             },
             {
                 "percentage": 70,
-                "title": "Database Management and Development"
+                "title": "Database Development & Management"
             },
             {
                 "percentage": 60,

@@ -8,31 +8,7 @@ export const Skills = ({skills}) => {
   const others = skills.others;
   const tools = skills.tools;
   const technologies = skills.technologies;
-
-  // const languages = [
-  //   { percentage: 80, title: "C/C++" },
-  //   { percentage: 80, title: "Python" },
-  //   { percentage: 70, title: "JavaScript" },
-  //   { percentage: 80, title: "SQL" },
-  // ];
-  // const others = [
-  //   { percentage: 75, title: "Git/GitHub" },
-  //   { percentage: 70, title: "Database Management and Development" },
-  //   { percentage: 60, title: "MongoDB" },
-  // ];
-  // const tools = [
-  //   { percentage: 85, title: "Visual Studio Code" },
-  //   { percentage: 80, title: "Jupyter Notebook" },
-  //   { percentage: 70, title: "Android Studio" },
-  //   { percentage: 75, title: "Google Colaboratory" },
-  // ];
-  // const technologies = [
-  //   { percentage: 80, title: "Computer Vision" },
-  //   { percentage: 70, title: "Generative AI" },
-  //   { percentage: 75, title: "Flutter Development" },
-  //   { percentage: 70, title: "Firebase" },
-  //   { percentage: 65, title: "Node/Express JS" },
-  // ];
+  const frameworks = skills.frameworks;
 
   return (
     <section className="skill" id="skills">
@@ -58,6 +34,15 @@ export const Skills = ({skills}) => {
               <h3 style={{marginTop: "10px"}}>Technologies</h3>
               <div className="skill-grid-container">
                 {technologies.map((skill, index) => (
+                  <div className="skill-item" key={index}>
+                    <ProgressBar percentage={skill.percentage} />
+                    <h5>{skill.title}</h5>
+                  </div>
+                ))}
+              </div>
+              <h3 style={{marginTop: "10px"}}>Libraries & Frameworks</h3>
+              <div className="skill-grid-container">
+                {frameworks.map((skill, index) => (
                   <div className="skill-item" key={index}>
                     <ProgressBar percentage={skill.percentage} />
                     <h5>{skill.title}</h5>
