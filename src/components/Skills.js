@@ -9,6 +9,7 @@ export const Skills = ({skills}) => {
   const tools = skills.tools;
   const technologies = skills.technologies;
   const frameworks = skills.frameworks;
+  const backend = skills.backend;
 
   return (
     <section className="skill" id="skills">
@@ -49,6 +50,15 @@ export const Skills = ({skills}) => {
                   </div>
                 ))}
               </div>
+              <h3 style={{marginTop: "10px"}}>Backend Development</h3>
+              <div className="skill-grid-container">
+                {backend.map((skill, index) => (
+                  <div className="skill-item" key={index}>
+                    <ProgressBar percentage={skill.percentage} />
+                    <h5>{skill.title}</h5>
+                  </div>
+                ))}
+              </div>
               <h3 style={{marginTop: "10px"}}>Tools</h3>
               <div className="skill-grid-container">
                 {tools.map((skill, index) => (
@@ -58,16 +68,6 @@ export const Skills = ({skills}) => {
                   </div>
                 ))}
               </div>
-              <h3 style={{marginTop: "10px"}}>Other</h3>
-              <div className="skill-grid-container">
-                {others.map((skill, index) => (
-                  <div className="skill-item" key={index}>
-                    <ProgressBar percentage={skill.percentage} />
-                    <h5>{skill.title}</h5>
-                  </div>
-                ))}
-              </div>
-              
             </div>
           </div>
         </div>

@@ -9,26 +9,30 @@
     },
     "experience": [
         {
-            "title": "Computer Vision Intern",
+            "title": "Computer Vision Engineer",
             "company": "RoadGauge Ltd",
             "duration": "July 2024 - December 2024",
-            "description": "Worked on road-edge detection and crack-detection solutions using Image Processing operations in OpenCV .",
+            "description": "Developed solutions on road-edge detection and crack-detection solutions using Image Processing operations in OpenCV.",
             "link": "https://roadgauge.ai"
         }
     ],
     "skills": {
         "languages": [
             {
-                "percentage": 80,
-                "title": "C/C++"
-            },
-            {
-                "percentage": 75,
+                "percentage": 85,
                 "title": "Python"
             },
             {
-                "percentage": 60,
+                "percentage": 75,
                 "title": "JavaScript"
+            },
+            {
+                "percentage": 75,
+                "title": "TypeScript"
+            },
+            {
+                "percentage": 70,
+                "title": "C/C++"
             },
             {
                 "percentage": 70,
@@ -71,10 +75,6 @@
             {
                 "percentage": 75,
                 "title": "Prompt Engineering"
-            },
-            {
-                "percentage": 65,
-                "title": "Backend Development"
             }
         ],
         "frameworks": [
@@ -91,7 +91,7 @@
                 "title": "Hugging Face"
             },
             {
-                "percentage": 65,
+                "percentage": 70,
                 "title": "Ollama"
             },
             {
@@ -99,7 +99,7 @@
                 "title": "TensorFlow"
             },
             {
-                "percentage": 60,
+                "percentage": 70,
                 "title": "PyTorch"
             },
             {
@@ -109,10 +109,36 @@
             {
                 "percentage": 75,
                 "title": "APIs (OpenAI, Gemini, Claude)"
+            }
+        ],
+        "backend": [
+            {
+                "percentage": 75,
+                "title": "NestJS"
             },
             {
-                "percentage": 60,
+                "percentage": 70,
+                "title": "FastAPI"
+            },
+            {
+                "percentage": 70,
                 "title": "NodeJS/ ExpressJS"
+            },
+            {
+                "percentage": 75,
+                "title": "Postman"
+            },
+            {
+                "percentage": 75,
+                "title": "Database Development & Management"
+            },
+            {
+                "percentage": 75,
+                "title": "MySQL"
+            },
+            {
+                "percentage": 75,
+                "title": "MongoDB"
             }
         ],
         "tools": [
@@ -121,7 +147,7 @@
                 "title": "Visual Studio Code"
             },
             {
-                "percentage": 70,
+                "percentage": 80,
                 "title": "Jupyter Notebook"
             },
             {
@@ -133,98 +159,12 @@
                 "title": "Kaggle Workspace"
             },
             {
-                "percentage": 70,
-                "title": "PyCharm"
-            },
-            {
-                "percentage": 70,
-                "title": "Anaconda"
-            },
-            {
-                "percentage": 60,
-                "title": "Postman"
-            }
-        ],
-        "others": [
-            {
                 "percentage": 75,
                 "title": "Git/GitHub"
             },
             {
                 "percentage": 70,
-                "title": "Database Development & Management"
-            },
-            {
-                "percentage": 60,
-                "title": "MongoDB"
-            }
-        ]
-    },
-    "projects": {
-        "tab1": [
-            {
-                "title": "Road Edge Deterioration Detector",
-                "description": "Developed an advanced image processing algorithm to detect and analyze road edge deterioration using RunSAT and Hough transform methods during my internhsip with RoadGauge Ltd.",
-                "imgUrl": "/projects/roadedge.png",
-                "link": "https://github.com/Umar-Farooq-2112/Road-Edge-Deterioration.git"
-            },
-            {
-                "title": "Unique Cracks Detector from GoPro Video",
-                "description": "Implemented a system to ensure unique crack detection, eliminating duplicates and accurately merging overlapping cracks in the final JSON output as bounding boxes",
-                "imgUrl": "/projects/cracksdetector.png",
-                "link": "https://github.com/Umar-Farooq-2112/Cracks-Detection-using-Go-Pro-Videos-and-Inference-masks-.git"
-            },
-            {
-                "title": "Sentiment Analysis with Sarcasm and Emojis",
-                "description": "Developed a lightweight hybrid deep learning model combining Bi-directional LSTM and Multi-Head Self-Attention for sarcasm- and emoji-aware sentiment analysis. Created a custom sarcasm and emoji-enriched dataset using the Google Gemini API, integrated with the IMDB dataset to improve model generalization.",
-                "imgUrl": "/projects/sentimentanalysis.png",
-                "link": "https://github.com/NemroNeno/Sentiment_analysis_Semester_proj.git"
-            },
-            {
-                "title": "JPEG Image Compression",
-                "description": "Applied lossy compression algorithms to reduce image file sizes while preserving visual quality, demonstrating proficiency in image processing and software development. Implemented using Python, utilizing OpenCV and Streamlit to develop a user-friendly application.",
-                "imgUrl": "/projects/jpegcompression.png",
-                "link": "https://github.com/Umar-Farooq-2112/JPEG-Compression.git"
-            },
-            {
-                "title": "Preseatation Video Slides Extractor",
-                "description": "Implemented a python script taking input a video of any meeting with presentations on it, extracting and storing each slide in the presenatation locally",
-                "imgUrl": "/projects/vts.png",
-                "link": "https://github.com/Umar-Farooq-2112/Video-to-Slide-Converter.git"
-            },
-            {
-                "title": "Road Bleeding Detector",
-                "description": "Implemented python scripts for detecting road bleeding from road images and inference masks utilizing OpenCV and Image Processing Techniques",
-                "imgUrl": "/projects/bleedingdetector.png",
-                "link": "https://github.com/Umar-Farooq-2112/Road-Bleeding-Detector.git"
-            }
-        ],
-        "tab2": [
-            {
-                "title": "FitnessFusion",
-                "description": "Design & Development of a fitness application for assigning workout and diet plans to end users with 3 differenct modes of application (Admin, Trainer and Trainee) in Flutter and Node JS with MySQL.",
-                "imgUrl": "/projects/fitnessfusion.png",
-                "link": "https://github.com/Umar-Farooq-2112/Fitness-Fusion.git"
-            },
-            {
-                "title": "Cloud Video Storage App",
-                "description": "A Cloud Video storage app based on microservices architecture utilizing Google Cloud Buckets for video storage and Node/Express JS for Backend Management.",
-                "imgUrl": "/projects/videostrgapp.png",
-                "link": "https://github.com/Umar-Farooq-2112/Cloud-Video-App.git"
-            },
-            {
-                "title": "IChat - Chatting Application in Java",
-                "description": "A Simple Peer to Peer Chatting Appilation made in java utilizing Java Socket and Swing UI Library",
-                "imgUrl": "/projects/ichat.png",
-                "link": "https://github.com/Umar-Farooq-2112/Chat-Application.git"
-            }
-        ],
-        "tab3": [
-            {
-                "title": "Test Portal",
-                "description": "A Simple Console based Test Portal application for Quiz based Questions with different difficulty levels and multiple subjects.",
-                "imgUrl": "/projects/testportal.png",
-                "link": "https://github.com/Umar-Farooq-2112/Test-Portal.git"
+                "title": "PyCharm"
             }
         ]
     }
