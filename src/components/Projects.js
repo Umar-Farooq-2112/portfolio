@@ -151,7 +151,7 @@ cracks in the final JSON output as bounding boxes`,
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Various Projects in AI,Computer Vision, Flutter, Python, Java and C/C++</p>
+                  <p>Various Projects in AI, Natural Language Processing, Computer Vision, Python and Backend in ExpressJS/NestJS</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>

@@ -1,11 +1,10 @@
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
+// import colorSharp from "../assets/img/color-sharp.png"
 import ProgressBar from "./ProgressBar"
 
 
 export const Skills = ({skills}) => {
   const languages = skills.languages;
-  const others = skills.others;
   const tools = skills.tools;
   const technologies = skills.technologies;
   const frameworks = skills.frameworks;
@@ -72,7 +71,7 @@ export const Skills = ({skills}) => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }
