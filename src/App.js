@@ -11,9 +11,9 @@ import Experience from "./components/Experience";
 import ContactDetails from './components/ContactDetails';
 import data from './assets/json/data.json'
 
-const service_id='service_4z6jb4v';
+const service_id='service_26cxkup';
 const template_id='template_dvc7qpg';
-const public_key='x3xoMG7KyhwXxLaMv';
+const public_key='sRAy-vcFIxWgFFUKm';
 
 function App() {
   return (
