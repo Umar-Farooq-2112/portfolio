@@ -12,8 +12,8 @@ import bleedingdetector from "../assets/projects/bleedingdetector.png";
 import cracksdetector from "../assets/projects/cracksdetector.png";
 import fitnessfusion from "../assets/projects/fitnessfusion.png";
 import sentimentanalysis from "../assets/projects/sentimentanalysis.png";
+import timberdefect from "../assets/projects/timberdefect.png";
 import roadedge from "../assets/projects/roadedge.png";
-import resumescoreai from "../assets/projects/resumescoreai.png";
 import dbmgtaiapp from "../assets/projects/dbmgtaiapp.png";
 import businessideaai from "../assets/projects/businessideaai.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -29,18 +29,17 @@ export const Projects = () => {
 
   const tab1 = [
     {
+      title: "Hybrid YOLOv8 with Vision Transformers for Timber Defect Detection",
+      description: `Designed lightweight hybrid YOLOv8 models with TinyViT/MobileViT and CBAM attention, reducing parameters to 4M and achieving 1.8x faster inference, trained with advanced augmentations on the Roboflow Timber Defects dataset using a full PyTorch + Ultralytics + OpenCV pipeline for edge deployment purposes.`,
+      imgUrl: timberdefect,
+      link: ""
+    },
+    {
       title: "Agentic AI Business Idea Market Analysis and Validator Tool",
       description: `Developed an agentic AI workflow using LangChain, LangGraph, Google Gemini, and Firecrawl to automate business idea validation, competitor analysis, and market demand estimation.
 Implemented modular nodes for web scraping, pain point extraction, and LLM-powered reporting, delivering actionable insights and structured reports for entrepreneurs.`,
       imgUrl: businessideaai,
       link: "https://github.com/Umar-Farooq-2112/Agentic-AI-Business-Idea-Evaluator.git"
-    },
-    {
-      title: "Agentic AI Resume Scoring with Job Description for Job Fit",
-      description: `Built an AI-driven resume scoring app using LangChain, LangGraph, and Google Gemini to analyze resumes with respect to job descriptions.
-Implemented robust agent workflows with Pydantic validation for structured parsing, fit scoring, and actionable feedback.`,
-      imgUrl: resumescoreai,
-      link: "https://github.com/Umar-Farooq-2112/Resume-Scoring-wrt-job-description.git"
     },
     {
       "title": "Sentiment Analysis with Sarcasm and Emojis",

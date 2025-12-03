@@ -1,0 +1,258 @@
+/************ Products Section Css ************/
+.products {
+  padding: 80px 0 50px 0;
+  position: relative;
+  background: linear-gradient(180deg, #121212 0%, #0a0a0a 100%);
+}
+
+.products h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products > .container > .row > div > div > p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 40px auto;
+}
+
+.products-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #AA367C #1e1e1e;
+}
+
+.products-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.products-scroll-container::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 10px;
+}
+
+.products-scroll-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #AA367C, #4A2FBD);
+  border-radius: 10px;
+}
+
+.products-scroll {
+  display: flex;
+  gap: 30px;
+  padding: 10px 5px 20px 5px;
+  min-width: min-content;
+}
+
+.product-card {
+  min-width: 420px;
+  max-width: 420px;
+  background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  flex-shrink: 0;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(170, 54, 124, 0.2);
+  border: 1px solid rgba(170, 54, 124, 0.4);
+}
+
+.product-logo-banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-logo-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-status {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: linear-gradient(90deg, #AA367C, #4A2FBD);
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  z-index: 2;
+}
+
+.product-content {
+  padding: 25px 30px 30px 30px;
+}
+
+.product-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.product-tagline {
+  font-size: 14px;
+  color: #AA367C;
+  font-weight: 500;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.product-description {
+  font-size: 15px;
+  color: #B8B8B8;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.product-features {
+  margin-bottom: 20px;
+}
+
+.product-features h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.product-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-features li {
+  font-size: 13px;
+  color: #999;
+  padding: 6px 0;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.4;
+}
+
+.product-features li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #AA367C;
+  font-weight: bold;
+}
+
+.product-tech {
+  margin-bottom: 20px;
+}
+
+.product-tech h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-tag {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ccc;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  background: linear-gradient(90deg, rgba(170, 54, 124, 0.3), rgba(74, 47, 189, 0.3));
+  border-color: rgba(170, 54, 124, 0.5);
+  color: #fff;
+}
+
+.product-link {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 25px;
+  background: linear-gradient(90deg, #AA367C, #4A2FBD);
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.product-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(170, 54, 124, 0.4);
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .products h2 {
+    font-size: 35px;
+  }
+  
+  .products > .container > .row > div > div > p {
+    width: 90%;
+    font-size: 16px;
+  }
+  
+  .product-card {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  
+  .product-logo-banner {
+    height: 160px;
+  }
+  
+  .product-content {
+    padding: 20px 25px 25px 25px;
+  }
+  
+  .product-name {
+    font-size: 24px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    min-width: 300px;
+    max-width: 300px;
+  }
+  
+  .product-features li {
+    font-size: 12px;
+  }
+  
+  .tech-tag {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+}
