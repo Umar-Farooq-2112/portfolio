@@ -19,70 +19,80 @@ export const Skills = ({skills}) => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <div className="skill-bx">
-                    <h2>Skills</h2>
+                    <h2>Skills & Expertise</h2>
                     <p>
-                      Throughout my journey as a software engineer, I've gained expertise in a variety of tools and technologies that I use to develop innovative solutions and create meaningful applications.
+                      A comprehensive toolkit built through hands-on experience in AI, backend systems, and full-stack development — constantly evolving with the latest technologies.
                     </p>
                     
-                    <div className="skills-category">
-                      <div className="category-header">
-                        <span className="category-icon">💻</span>
-                        <h3>Programming Languages</h3>
+                    {/* First Row - 2 columns */}
+                    <div className="skills-grid">
+                      <div className="skills-category">
+                        <div className="category-header">
+                          <span className="category-icon">💻</span>
+                          <h3>Programming Languages</h3>
+                        </div>
+                        <div className="skills-tags">
+                          {languages.map((skill, index) => (
+                            <span className="skill-tag" key={index}>{skill.title}</span>
+                          ))}
+                        </div>
                       </div>
-                      <div className="skills-tags">
-                        {languages.map((skill, index) => (
-                          <span className="skill-tag" key={index}>{skill.title}</span>
-                        ))}
+
+                      <div className="skills-category">
+                        <div className="category-header">
+                          <span className="category-icon">🛠️</span>
+                          <h3>Tools & Platforms</h3>
+                        </div>
+                        <div className="skills-tags">
+                          {tools.map((skill, index) => (
+                            <span className="skill-tag" key={index}>{skill.title}</span>
+                          ))}
+                        </div>
                       </div>
                     </div>
 
-                    <div className="skills-category">
-                      <div className="category-header">
-                        <span className="category-icon">🤖</span>
-                        <h3>Specialization</h3>
-                      </div>
-                      <div className="skills-tags">
-                        {technologies.map((skill, index) => (
-                          <span className="skill-tag" key={index}>{skill.title}</span>
-                        ))}
-                      </div>
-                    </div>
-
-                    <div className="skills-category">
-                      <div className="category-header">
-                        <span className="category-icon">📚</span>
-                        <h3>Libraries & Frameworks</h3>
-                      </div>
-                      <div className="skills-tags">
-                        {frameworks.map((skill, index) => (
-                          <span className="skill-tag" key={index}>{skill.title}</span>
-                        ))}
+                    {/* Second Row - Full width for Specialization */}
+                    <div className="skills-grid skills-grid-full">
+                      <div className="skills-category">
+                        <div className="category-header">
+                          <span className="category-icon">🎯</span>
+                          <h3>Specializations & Expertise</h3>
+                        </div>
+                        <div className="skills-tags">
+                          {technologies.map((skill, index) => (
+                            <span className="skill-tag" key={index}>{skill.title}</span>
+                          ))}
+                        </div>
                       </div>
                     </div>
 
-                    <div className="skills-category">
-                      <div className="category-header">
-                        <span className="category-icon">⚙️</span>
-                        <h3>Backend Development</h3>
+                    {/* Third Row - 2 columns */}
+                    <div className="skills-grid">
+                      <div className="skills-category">
+                        <div className="category-header">
+                          <span className="category-icon">🤖</span>
+                          <h3>AI & ML Frameworks</h3>
+                        </div>
+                        <div className="skills-tags">
+                          {frameworks.map((skill, index) => (
+                            <span className="skill-tag" key={index}>{skill.title}</span>
+                          ))}
+                        </div>
                       </div>
-                      <div className="skills-tags">
-                        {backend.map((skill, index) => (
-                          <span className="skill-tag" key={index}>{skill.title}</span>
-                        ))}
+
+                      <div className="skills-category">
+                        <div className="category-header">
+                          <span className="category-icon">⚙️</span>
+                          <h3>Backend & DevOps</h3>
+                        </div>
+                        <div className="skills-tags">
+                          {backend.map((skill, index) => (
+                            <span className="skill-tag" key={index}>{skill.title}</span>
+                          ))}
+                        </div>
                       </div>
                     </div>
 
-                    <div className="skills-category">
-                      <div className="category-header">
-                        <span className="category-icon">🛠️</span>
-                        <h3>Tools & Platforms</h3>
-                      </div>
-                      <div className="skills-tags">
-                        {tools.map((skill, index) => (
-                          <span className="skill-tag" key={index}>{skill.title}</span>
-                        ))}
-                      </div>
-                    </div>
                   </div>
                 </div>
               )}
