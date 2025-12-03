@@ -60,7 +60,7 @@ export const Banner = () => {
                   <h1>{`Hi! I'm Umar Farooq`} <span className="txt-rotate" data-rotate='[ "Generative AI Engineer","Computer Vision Engineer", "Flutter Developer",]'><span className="wrap">{text}</span></span></h1>
                   <p>
                     Passionate Software Engineering Student from National University of Sciences & Technology.
-                    Empowering innovation with expertise in Artificial Intelligence, Computer Vision,Natural Language Processing, Generative AI and Backend Development, crafting intelligent, seamless, and scalable solutions.
+                    Empowering innovation with expertise in Artificial Intelligence, Computer Vision, Natural Language Processing, Generative AI and Backend Development, crafting intelligent, seamless, and scalable solutions.
                   </p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 </div>}
