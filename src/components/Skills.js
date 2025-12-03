@@ -1,7 +1,7 @@
 import 'react-multi-carousel/lib/styles.css';
-// import colorSharp from "../assets/img/color-sharp.png"
-import ProgressBar from "./ProgressBar"
-
+import './Skills.css';
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 
 export const Skills = ({skills}) => {
   const languages = skills.languages;
@@ -15,63 +15,81 @@ export const Skills = ({skills}) => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p>
-                Throughout my journey as a software engineer, I've gained expertise in a variety of tools and technologies. Below are the key skills that I use to develop innovative solutions and create meaningful applications
-                <br></br>
-                I am constantly learning and evolving, always striving to stay updated with the latest trends and best practices in the tech industry
-              </p>
-              <h3>Programming Languages</h3>
-              <div className="skill-grid-container">
-                {languages.map((skill, index) => (
-                  <div className="skill-item" key={index}>
-                    <ProgressBar percentage={skill.percentage} />
-                    <h5>{skill.title}</h5>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <div className="skill-bx">
+                    <h2>Skills</h2>
+                    <p>
+                      Throughout my journey as a software engineer, I've gained expertise in a variety of tools and technologies that I use to develop innovative solutions and create meaningful applications.
+                    </p>
+                    
+                    <div className="skills-category">
+                      <div className="category-header">
+                        <span className="category-icon">💻</span>
+                        <h3>Programming Languages</h3>
+                      </div>
+                      <div className="skills-tags">
+                        {languages.map((skill, index) => (
+                          <span className="skill-tag" key={index}>{skill.title}</span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="skills-category">
+                      <div className="category-header">
+                        <span className="category-icon">🤖</span>
+                        <h3>Specialization</h3>
+                      </div>
+                      <div className="skills-tags">
+                        {technologies.map((skill, index) => (
+                          <span className="skill-tag" key={index}>{skill.title}</span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="skills-category">
+                      <div className="category-header">
+                        <span className="category-icon">📚</span>
+                        <h3>Libraries & Frameworks</h3>
+                      </div>
+                      <div className="skills-tags">
+                        {frameworks.map((skill, index) => (
+                          <span className="skill-tag" key={index}>{skill.title}</span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="skills-category">
+                      <div className="category-header">
+                        <span className="category-icon">⚙️</span>
+                        <h3>Backend Development</h3>
+                      </div>
+                      <div className="skills-tags">
+                        {backend.map((skill, index) => (
+                          <span className="skill-tag" key={index}>{skill.title}</span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="skills-category">
+                      <div className="category-header">
+                        <span className="category-icon">🛠️</span>
+                        <h3>Tools & Platforms</h3>
+                      </div>
+                      <div className="skills-tags">
+                        {tools.map((skill, index) => (
+                          <span className="skill-tag" key={index}>{skill.title}</span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
-                ))}
-              </div>
-              <h3 style={{marginTop: "10px"}}>Technologies</h3>
-              <div className="skill-grid-container">
-                {technologies.map((skill, index) => (
-                  <div className="skill-item" key={index}>
-                    <ProgressBar percentage={skill.percentage} />
-                    <h5>{skill.title}</h5>
-                  </div>
-                ))}
-              </div>
-              <h3 style={{marginTop: "10px"}}>Libraries & Frameworks</h3>
-              <div className="skill-grid-container">
-                {frameworks.map((skill, index) => (
-                  <div className="skill-item" key={index}>
-                    <ProgressBar percentage={skill.percentage} />
-                    <h5>{skill.title}</h5>
-                  </div>
-                ))}
-              </div>
-              <h3 style={{marginTop: "10px"}}>Backend Development</h3>
-              <div className="skill-grid-container">
-                {backend.map((skill, index) => (
-                  <div className="skill-item" key={index}>
-                    <ProgressBar percentage={skill.percentage} />
-                    <h5>{skill.title}</h5>
-                  </div>
-                ))}
-              </div>
-              <h3 style={{marginTop: "10px"}}>Tools</h3>
-              <div className="skill-grid-container">
-                {tools.map((skill, index) => (
-                  <div className="skill-item" key={index}>
-                    <ProgressBar percentage={skill.percentage} />
-                    <h5>{skill.title}</h5>
-                  </div>
-                ))}
-              </div>
-            </div>
+                </div>
+              )}
+            </TrackVisibility>
           </div>
         </div>
       </div>
-      {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }

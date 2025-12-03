@@ -19,152 +19,168 @@
     "skills": {
         "languages": [
             {
-                "percentage": 85,
                 "title": "Python"
             },
             {
-                "percentage": 75,
                 "title": "JavaScript"
             },
             {
-                "percentage": 75,
                 "title": "TypeScript"
             },
             {
-                "percentage": 70,
-                "title": "C/C++"
+                "title": "C++"
             },
             {
-                "percentage": 70,
+                "title": "C"
+            },
+            {
                 "title": "SQL"
             }
         ],
         "technologies": [
             {
-                "percentage": 85,
+                "title": "Agentic AI Systems"
+            },
+            {
+                "title": "Multi-Agent Workflow Design"
+            },
+            {
+                "title": "AI Models Development"
+            },
+            {
+                "title": "Prompt Engineering"
+            },
+            {
+                "title": "Retrieval-Augmented Generation"
+            },
+            {
+                "title": "AI Product Development"
+            },
+            {
+                "title": "Model Evaluation & Instrumentation"
+            },
+            {
+                "title": "Backend System Design"
+            },
+            {
+                "title": "Microservices Architecture Design"
+            },
+            {
+                "title": "Database Design"
+            },
+            {
                 "title": "Machine Learning"
             },
             {
-                "percentage": 75,
                 "title": "Deep Learning"
             },
             {
-                "percentage": 70,
                 "title": "Computer Vision"
             },
             {
-                "percentage": 75,
                 "title": "Image Processing"
             },
             {
-                "percentage": 80,
-                "title": "Agentic AI"
-            },
-            {
-                "percentage": 80,
-                "title": "AI Agents"
-            },
-            {
-                "percentage": 75,
                 "title": "Large Language Models"
-            },
-            {
-                "percentage": 75,
-                "title": "RAG"
-            },
-            {
-                "percentage": 75,
-                "title": "Prompt Engineering"
             }
         ],
         "frameworks": [
             {
-                "percentage": 70,
-                "title": "LangChain"
-            },
-            {
-                "percentage": 70,
-                "title": "LangGraph"
-            },
-            {
-                "percentage": 65,
-                "title": "Hugging Face"
-            },
-            {
-                "percentage": 70,
-                "title": "Ollama"
-            },
-            {
-                "percentage": 80,
-                "title": "TensorFlow"
-            },
-            {
-                "percentage": 70,
                 "title": "PyTorch"
             },
             {
-                "percentage": 75,
+                "title": "TensorFlow"
+            },
+            {
+                "title": "Scikit-Learn"
+            },
+            {
                 "title": "OpenCV"
             },
             {
-                "percentage": 75,
-                "title": "APIs (OpenAI, Gemini, Claude)"
+                "title": "Hugging Face"
+            },
+            {
+                "title": "LangChain"
+            },
+            {
+                "title": "LangGraph"
+            },
+            {
+                "title": "RAG"
+            },
+            {
+                "title": "LLM Fine-Tuning"
+            },
+            {
+                "title": "Gemini"
+            },
+            {
+                "title": "OpenAI APIs"
+            },
+            {
+                "title": "Ollama"
             }
         ],
         "backend": [
             {
-                "percentage": 75,
                 "title": "NestJS"
             },
             {
-                "percentage": 70,
                 "title": "FastAPI"
             },
             {
-                "percentage": 70,
-                "title": "NodeJS/ ExpressJS"
+                "title": "NodeJS"
             },
             {
-                "percentage": 75,
-                "title": "Postman"
+                "title": "ExpressJS"
             },
             {
-                "percentage": 75,
-                "title": "Database Development & Management"
+                "title": "Flask"
             },
             {
-                "percentage": 75,
+                "title": "Docker"
+            },
+            {
+                "title": "MongoDB"
+            },
+            {
+                "title": "PostgreSQL"
+            },
+            {
                 "title": "MySQL"
             },
             {
-                "percentage": 75,
-                "title": "MongoDB"
+                "title": "React/NextJS Integrations"
+            },
+            {
+                "title": "Postman"
             }
         ],
         "tools": [
             {
-                "percentage": 85,
                 "title": "Visual Studio Code"
             },
             {
-                "percentage": 80,
                 "title": "Jupyter Notebook"
             },
             {
-                "percentage": 75,
                 "title": "Google Colaboratory"
             },
             {
-                "percentage": 75,
                 "title": "Kaggle Workspace"
             },
             {
-                "percentage": 75,
-                "title": "Git/GitHub"
+                "title": "GitHub Copilot"
             },
             {
-                "percentage": 70,
-                "title": "PyCharm"
+                "title": "CursorAI"
+            },
+            {
+                "title": "Git"
+            },
+            {
+                "title": "Git/GitHub"
             }
         ]
     }
