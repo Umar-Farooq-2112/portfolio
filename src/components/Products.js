@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Products.css";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import hrxpert from "../assets/products/hrxpert.png";
-import vizdomai from "../assets/products/vizdomai.png";
+import hrxpert from "../assets/products/hrxpert.webp";
+import vizdomai from "../assets/products/vizdomai.webp";
 
 // Product data - easily expandable for future products
 const products = [
