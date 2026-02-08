@@ -46,7 +46,7 @@
 
 /* ============ Tab Navigation - Centered & Beautiful ============ */
 .project .nav.nav-pills {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 60px;
@@ -56,6 +56,7 @@
   z-index: 1;
   gap: 5px;
   margin: 0 auto 50px auto;
+  width: fit-content;
 }
 
 .project .nav.nav-pills .nav-item {
