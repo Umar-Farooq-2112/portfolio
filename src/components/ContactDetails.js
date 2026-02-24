@@ -27,12 +27,6 @@ const ContactDetails = ({details}) => {
           <a href={linkedin} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href={facebook} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook"></i>
-          </a>
-          <a href={instagram} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-instagram"></i>
-          </a>
           <a href={github} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>

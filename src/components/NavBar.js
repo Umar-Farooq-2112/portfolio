@@ -13,8 +13,6 @@ import {
 export const NavBar = ({contacts}) => {
   const linkedin = contacts.linkedin;
   const gthb = contacts.github;
-  const facebook = contacts.facebook;
-  const instagram = contacts.instagram;
   
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -66,8 +64,6 @@ export const NavBar = ({contacts}) => {
               <div className="social-icon">
                 <a target="_blank" href={linkedin}><img src={navIcon1} alt="" /></a>
                 <a target="_blank" href={gthb}><img src={github} alt="" /></a>
-                <a target="_blank" href={facebook}><img src={navIcon2} alt="" /></a>
-                <a target="_blank" href={instagram}><img src={navIcon3} alt="" /></a>
               </div>
               
               <HashLink to='#connect'>
