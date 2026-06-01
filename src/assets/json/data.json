@@ -11,11 +11,13 @@
         {
             "title": "AI Engineer",
             "company": "Royal Cyber",
-            "duration": "July 2024 - December 2024",
+            "duration": "April 2026 - Present",
             "description": [
-                "Developed Voice Agent builder solutions for enterprise clients.",
-                "Built and deployed LLM-powered applications for business automation.",
-                "Integrated conversational AI pipelines with backend services."
+                "Developed an AI Workflow builder for automated workflow generation in a Voice Agent Builder platform (NouraaAI) in NextJS.",
+                "Built an end-to-end AI Voice Pipeline using NextJS, FastAPI, Deepgram, and Azure OpenAI.",
+                "Built automated marketing content generation and posting workflows using n8n, Claude, and AWS S3.",
+                "Developed sales and lead validation agents using n8n and Supabase.",
+                "Exploring AWS DevOps for NouraaAI including EC2, Kubernetes, Fargate, and Load Balancer."
             ],
             "link": "https://royalcyber.com"
         },
@@ -24,191 +26,91 @@
             "company": "China Pakistan Intelligent Systems Lab, SEECS, NUST",
             "duration": "June 2025 - August 2025",
             "description": [
-                "Architected and developed a Recruitment Automation Platform using NestJS, NextJS, and FastAPI.",
-                "Built an AI-driven resume scoring system leveraging LLMs for structured candidate evaluation.",
-                "Developed a GitHub evaluation pipeline to assess candidate technical contributions.",
-                "Implemented a real-time AI interviewer with voice interaction and dynamic question generation."
+                "Architected and designed an AI-driven Recruitment Automation Platform in FastAPI, NestJS, MongoDB, RabbitMQ, and AWS S3.",
+                "Designed and implemented AI pipelines and voice agents using OpenAI Realtime APIs, Gemini, and DeepSeek.",
+                "Integrated AI pipelines with NestJS and FastAPI servers and message brokers for scalable hiring workflows."
             ],
             "link": ""
         },
         {
             "title": "Computer Vision Engineer",
             "company": "RoadGauge Ltd",
-            "duration": "July 2024 - December 2024",
+            "duration": "July 2024 - February 2025",
             "description": [
-                "Developed road-edge detection solutions using image processing operations in OpenCV.",
-                "Built crack-detection pipelines for automated road condition analysis.",
-                "Optimized computer vision algorithms for real-time field deployment."
+                "Developed end-to-end computer vision pipelines for road condition assessment using OpenCV in Python, including Road Edge Deterioration Detection and Bleeding Detection.",
+                "Implemented crack detection, defect localization, and tracking on long-duration GoPro footage."
             ],
             "link": "https://roadgauge.ai"
         }
     ],
     "skills": {
         "languages": [
-            {
-                "title": "Python"
-            },
-            {
-                "title": "JavaScript"
-            },
-            {
-                "title": "TypeScript"
-            },
-            {
-                "title": "C++"
-            },
-            {
-                "title": "C"
-            },
-            {
-                "title": "SQL"
-            }
+            { "title": "Python" },
+            { "title": "JavaScript" },
+            { "title": "TypeScript" },
+            { "title": "SQL" }
         ],
         "technologies": [
-            {
-                "title": "Agentic AI Systems"
-            },
-            {
-                "title": "Multi-Agent Workflow Design"
-            },
-            {
-                "title": "AI Models Development"
-            },
-            {
-                "title": "Prompt Engineering"
-            },
-            {
-                "title": "Retrieval-Augmented Generation"
-            },
-            {
-                "title": "AI Product Development"
-            },
-            {
-                "title": "Model Evaluation & Instrumentation"
-            },
-            {
-                "title": "Backend System Design"
-            },
-            {
-                "title": "Microservices Architecture Design"
-            },
-            {
-                "title": "Database Design"
-            },
-            {
-                "title": "Machine Learning"
-            },
-            {
-                "title": "Deep Learning"
-            },
-            {
-                "title": "Computer Vision"
-            },
-            {
-                "title": "Image Processing"
-            },
-            {
-                "title": "Large Language Models"
-            }
+            { "title": "Agentic AI Systems" },
+            { "title": "Multi-Agent Workflow Design" },
+            { "title": "LLM Integration & Pipelines" },
+            { "title": "Prompt Engineering" },
+            { "title": "Retrieval-Augmented Generation" },
+            { "title": "AI Product Development" },
+            { "title": "Model Evaluation & Instrumentation" },
+            { "title": "Backend System Design" },
+            { "title": "Microservices Architecture Design" },
+            { "title": "Machine Learning" },
+            { "title": "Deep Learning" },
+            { "title": "Computer Vision" },
+            { "title": "Large Language Models" }
         ],
         "frameworks": [
-            {
-                "title": "PyTorch"
-            },
-            {
-                "title": "TensorFlow"
-            },
-            {
-                "title": "Scikit-Learn"
-            },
-            {
-                "title": "OpenCV"
-            },
-            {
-                "title": "Hugging Face"
-            },
-            {
-                "title": "LangChain"
-            },
-            {
-                "title": "LangGraph"
-            },
-            {
-                "title": "RAG"
-            },
-            {
-                "title": "LLM Fine-Tuning"
-            },
-            {
-                "title": "Gemini"
-            },
-            {
-                "title": "OpenAI APIs"
-            },
-            {
-                "title": "Ollama"
-            }
+            { "title": "LangChain" },
+            { "title": "LangGraph" },
+            { "title": "Google Agent Development Kit" },
+            { "title": "n8n" },
+            { "title": "Autogen" },
+            { "title": "Hugging Face" },
+            { "title": "Gemini APIs" },
+            { "title": "OpenAI APIs" },
+            { "title": "Ollama" },
+            { "title": "LLM Fine-Tuning & LoRA" },
+            { "title": "PyTorch" },
+            { "title": "TensorFlow" },
+            { "title": "Ultralytics / YOLO" },
+            { "title": "Scikit-Learn" },
+            { "title": "OpenCV" },
+            { "title": "NumPy / Pandas" }
         ],
         "backend": [
-            {
-                "title": "NestJS"
-            },
-            {
-                "title": "FastAPI"
-            },
-            {
-                "title": "NodeJS"
-            },
-            {
-                "title": "ExpressJS"
-            },
-            {
-                "title": "Flask"
-            },
-            {
-                "title": "Docker"
-            },
-            {
-                "title": "MongoDB"
-            },
-            {
-                "title": "PostgreSQL"
-            },
-            {
-                "title": "MySQL"
-            },
-            {
-                "title": "React/NextJS Integrations"
-            },
-            {
-                "title": "Postman"
-            }
+            { "title": "NestJS" },
+            { "title": "FastAPI" },
+            { "title": "NodeJS" },
+            { "title": "ExpressJS" },
+            { "title": "NextJS" },
+            { "title": "ReactJS" },
+            { "title": "Flask" },
+            { "title": "REST APIs" },
+            { "title": "Microservices" },
+            { "title": "Docker" },
+            { "title": "AWS EC2" },
+            { "title": "AWS Lambda" },
+            { "title": "AWS S3" },
+            { "title": "RabbitMQ" }
         ],
         "tools": [
-            {
-                "title": "Visual Studio Code"
-            },
-            {
-                "title": "Jupyter Notebook"
-            },
-            {
-                "title": "Google Colaboratory"
-            },
-            {
-                "title": "Kaggle Workspace"
-            },
-            {
-                "title": "GitHub Copilot"
-            },
-            {
-                "title": "CursorAI"
-            },
-            {
-                "title": "Git"
-            },
-            {
-                "title": "Git/GitHub"
-            }
+            { "title": "MongoDB" },
+            { "title": "PostgreSQL" },
+            { "title": "Supabase" },
+            { "title": "MySQL" },
+            { "title": "Redis" },
+            { "title": "Git / GitHub" },
+            { "title": "Jupyter Notebook" },
+            { "title": "Google Colaboratory" },
+            { "title": "Kaggle Workspace" },
+            { "title": "GitHub Copilot" },
+            { "title": "CursorAI" }
         ]
     }
 }

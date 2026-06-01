@@ -1,25 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Experience.css";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
-const ExperienceCard = ({ title, company, duration, description, link, index }) => {
+const ExperienceCard = ({ title, company, duration, description, link, isOpen, onToggle, index }) => {
   return (
-    <div className="experience-card" style={{ animationDelay: `${index * 0.1}s` }}>
-      <div className="experience-timeline-dot"></div>
-      <div className="experience-content">
-        <div className="experience-header">
-          <div className="experience-title-section">
-            <h3>{title}</h3>
-            <a href={link} target="_blank" rel="noopener noreferrer" className="company-link">
-              <h4>{company} <span className="link-icon">↗</span></h4>
+    <div
+      className={`exp-item${isOpen ? " open" : ""}`}
+      style={{ animationDelay: `${index * 0.08}s` }}
+    >
+      <button className="exp-summary" onClick={onToggle} aria-expanded={isOpen}>
+        <div className="exp-left">
+          <span className="exp-title">{title}</span>
+          <span className="exp-dot">·</span>
+          {link ? (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="exp-company"
+              onClick={e => e.stopPropagation()}
+            >
+              {company}<span className="exp-arrow">↗</span>
             </a>
-          </div>
-          <div className="experience-duration">
-            <span className="duration-badge">{duration}</span>
-          </div>
+          ) : (
+            <span className="exp-company no-link">{company}</span>
+          )}
         </div>
-        <ul className="description-list">
+        <div className="exp-right">
+          <span className="exp-duration">{duration}</span>
+          <span className="exp-chevron">{isOpen ? "−" : "+"}</span>
+        </div>
+      </button>
+      <div className="exp-details" aria-hidden={!isOpen}>
+        <ul className="exp-desc-list">
           {Array.isArray(description)
             ? description.map((item, i) => <li key={i}>{item}</li>)
             : <li>{description}</li>
@@ -30,27 +44,34 @@ const ExperienceCard = ({ title, company, duration, description, link, index }) 
   );
 };
 
-const ExperienceSection = ({experiences}) => {
+const ExperienceSection = ({ experiences }) => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setOpenIndex(prev => prev === index ? null : index);
+  };
+
   return (
     <section className="experience-section" id="experience">
       <TrackVisibility>
         {({ isVisible }) => (
           <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
             <h2>Professional Experience</h2>
-            <p className="experience-subtitle">
-              My journey through the tech industry, building impactful solutions and growing as an engineer.
+            <p className="exp-subtitle">
+              Click any role to see what I worked on.
             </p>
-            <div className="experience-container">
-              <div className="experience-timeline-line"></div>
-              {experiences.map((experience, index) => (
+            <div className="exp-list">
+              {experiences.map((exp, index) => (
                 <ExperienceCard
                   key={index}
                   index={index}
-                  title={experience.title}
-                  company={experience.company}
-                  duration={experience.duration}
-                  description={experience.description}
-                  link={experience.link}
+                  title={exp.title}
+                  company={exp.company}
+                  duration={exp.duration}
+                  description={exp.description}
+                  link={exp.link}
+                  isOpen={openIndex === index}
+                  onToggle={() => handleToggle(index)}
                 />
               ))}
             </div>
