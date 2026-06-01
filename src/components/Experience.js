@@ -19,7 +19,12 @@ const ExperienceCard = ({ title, company, duration, description, link, index }) 
             <span className="duration-badge">{duration}</span>
           </div>
         </div>
-        <p className="description">{description}</p>
+        <ul className="description-list">
+          {Array.isArray(description)
+            ? description.map((item, i) => <li key={i}>{item}</li>)
+            : <li>{description}</li>
+          }
+        </ul>
       </div>
     </div>
   );

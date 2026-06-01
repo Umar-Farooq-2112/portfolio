@@ -9,10 +9,37 @@
     },
     "experience": [
         {
+            "title": "AI Engineer",
+            "company": "Royal Cyber",
+            "duration": "July 2024 - December 2024",
+            "description": [
+                "Developed Voice Agent builder solutions for enterprise clients.",
+                "Built and deployed LLM-powered applications for business automation.",
+                "Integrated conversational AI pipelines with backend services."
+            ],
+            "link": "https://royalcyber.com"
+        },
+        {
+            "title": "AI Engineer",
+            "company": "China Pakistan Intelligent Systems Lab, SEECS, NUST",
+            "duration": "June 2025 - August 2025",
+            "description": [
+                "Architected and developed a Recruitment Automation Platform using NestJS, NextJS, and FastAPI.",
+                "Built an AI-driven resume scoring system leveraging LLMs for structured candidate evaluation.",
+                "Developed a GitHub evaluation pipeline to assess candidate technical contributions.",
+                "Implemented a real-time AI interviewer with voice interaction and dynamic question generation."
+            ],
+            "link": ""
+        },
+        {
             "title": "Computer Vision Engineer",
             "company": "RoadGauge Ltd",
             "duration": "July 2024 - December 2024",
-            "description": "Developed solutions on road-edge detection and crack-detection solutions using Image Processing operations in OpenCV.",
+            "description": [
+                "Developed road-edge detection solutions using image processing operations in OpenCV.",
+                "Built crack-detection pipelines for automated road condition analysis.",
+                "Optimized computer vision algorithms for real-time field deployment."
+            ],
             "link": "https://roadgauge.ai"
         }
     ],

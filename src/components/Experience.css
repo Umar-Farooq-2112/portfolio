@@ -200,11 +200,26 @@
   white-space: nowrap;
 }
 
-.experience-card .description {
+.description-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.description-list li {
   font-size: 15px;
   line-height: 1.7;
   color: #999;
-  margin: 0;
+  padding: 4px 0 4px 20px;
+  position: relative;
+}
+
+.description-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #AA367C;
+  font-size: 14px;
 }
 
 /* Responsive Design */
@@ -276,7 +291,7 @@
     font-size: 12px;
   }
   
-  .experience-card .description {
+  .description-list li {
     font-size: 14px;
   }
 }
